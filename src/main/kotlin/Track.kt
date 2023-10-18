@@ -1,0 +1,15 @@
+class Track(
+    val id: String,
+    val name: String,
+    val artists: List<String>,
+    val acousticness: Float,
+    val danceability: Float,
+    val energy: Float,
+    val instrumentalness: Float,
+    val liveness: Float,
+    val loudness: Float,
+    val speechiness: Float,
+    val valence: Float,
+    val playCount: Long,
+    val year: Int,
+)
